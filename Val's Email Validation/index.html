@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5vh;    
+        }
+
+        .main__box {
+            text-align: center;
+            width: 400px;
+            height: 500px;
+            
+        }
+        .yhs {
+            background-color: #5d77a9;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .yhs h2 {
+            text-transform: uppercase;
+        }
+
+        .pay__rec {
+            background-color: #c1d5f6;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pay__rec-text p {
+            margin-top: 30px;
+        }
+
+        .pay__det {
+            background-color: #f0eff3;
+            height: 270px;
+        }
+        .pay__det h3 {
+            padding-top: 20px;
+        }
+
+        .row {
+            display: flex;
+            margin-top: 25px;
+        }
+        .column-1 {
+            flex: 50%;
+            text-align: right;
+            /* background-color: aquamarine; */
+            height: 200px;
+            /* flex-direction: row; */
+        }
+        .column-1 h4 {
+            margin: 20px;
+        }
+        
+        .column-2 {
+            flex: 50%;
+            text-align: left;
+            /* background-color: blanchedalmond; */
+            height: 200px;
+            /* flex-direction: row; */
+        }
+        .column-2 p {
+            margin: 20px;
+        }
+
+        .bot__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f5f3f3;
+            height: 40px;
+        }
+
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #657ce6;
+            height: 70px;
+        }
+        footer h6 {
+            margin: 5px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main__box">
+        <div class="yhs">
+            <h2>Your Hair Salon</h2>
+        </div>
+        <div class="pay__rec">
+            <div class="pay__rec-text">
+            <h1>Payment received</h1>
+            <p>Hi <a href="#">Jessy Doe</a></p>
+        </div>
+        </div>
+        <div class="pay__det">
+            <h3>PAYMENT DETAILS</h3>
+            <div class="table">
+                <div class="row">
+                    <div class="column-1">
+                        <h4>Amount</h4>
+                        <h4>Date</h4>
+                        <h4>Method</h4>
+                        <h4>Confirmation</h4>
+                    </div>
+                    <div class="column-2">
+                        <p>$25.00</p>
+                        <p>dd/mm/yy</p> 
+                        <p>Bank Account</p>
+                        <p>2hekdu7d</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot__text">
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+        </div>
+        <footer>
+            <div class="footer-text">
+            <h6>Your street, city</h6>
+            <h6>info@example.com</h6>
+            <h6>(+234) 123 456 789</h6>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
